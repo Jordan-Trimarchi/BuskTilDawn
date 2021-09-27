@@ -10,7 +10,7 @@ const SplitPane = ({ left, right }) => {
       <Container className={classes.pane}>
         {left}
       </Container>
-      <Container className={classes.pane}>
+      <Container className={classes.pane2}>
         {right}
       </Container>
     </Container>

@@ -11,9 +11,17 @@ const useStyles = makeStyles((theme) => (
       minWidth: '650px',
       marginBottom: '1rem',
     },
+    pane2: {
+      width: '50%',
+      minWidth: '650px',
+      marginBottom: '1rem',
+      height: '100%',
+      overflow: 'auto',
+    },
     viewWindow: {
       display: 'flex',
       flexWrap: 'wrap',
+      height: '57vh',
     },
     table: {
       height: '100%',

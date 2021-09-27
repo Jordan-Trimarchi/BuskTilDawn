@@ -36,7 +36,7 @@ const MyAccount = (props) => {
           ? (
             <div>
               <Typography>{`Follower Count: ${followers}`}</Typography>
-              <Typography>{`payment: ${cashappURL ? cashappURL : 'Add a cashapp link for tips!'}`}</Typography>
+              <Typography>{`CashApp: ${cashappURL ? cashappURL : 'Add a cashapp link for tips!'}`}</Typography>
             </div>
           )
           : null

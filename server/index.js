@@ -3,6 +3,7 @@ const path = require('path');
 const cors = require('cors');
 const mongoose = require('mongoose');
 const passport = require('passport');
+require('dotenv').config();
 
 const router = require('./routes');
 // const queries = require('../database/schema.js'); // Emma's guide
